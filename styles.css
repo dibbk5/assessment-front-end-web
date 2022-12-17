@@ -2,7 +2,7 @@ body {
   background: #ddd;
   margin: 1rem;
   padding: 1rem;
-  max-width: 500px;
+  max-width: 100%;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -35,4 +35,56 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+footer {
+	background-color: #C0C2C8;
+	border: solid 2px;
+	border-color: #FFA501;
+	height: 30px;
+	margin: 10px;
+}
+
+.flexbox {
+	display: flex;
+	width: 75%;
+}
+
+.spread {
+	justify-content: space-around;
+}
+
+#profilepic {
+	border-radius: 50%;
+	width: 200px;
+	margin-right: 50px;
+}
+
+.index-card {
+    width: 30%;
+    border: 1px solid #ccc;
+    background-color: #C0C2C8;
+    padding: 10px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+}
+
+#carrer-goals {
+	width: 75%;
+	box-sizing: content-box;
+	margin: 25px;
+}
+
+.bottom-buttons {
+	background-color: #FFA501;
+	padding: 10px 10px;
+	border-radius: 50px;
+	border-style: double;
+	border-width: 10px;
+}
+
+.bottom-buttons:hover {
+	background-color: #C0C2C8;
+	color: #FFA501;
 }
